@@ -1,4 +1,3 @@
-import React from "react";
 import bannerLogo from '../../assets/logo rgb no bg(1).png'
 const Banner = () => {
   return (

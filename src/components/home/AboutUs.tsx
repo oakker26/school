@@ -1,4 +1,3 @@
-import React from "react";
 import backgroundImageUrl from "../../assets/background.png";
 
 const AboutUs = () => {

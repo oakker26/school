@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { LuNetwork } from "react-icons/lu";
 import { BsFiletypePhp } from "react-icons/bs";
-import { SiInteractiondesignfoundation } from "react-icons/si";
 import { BiLogoPython, BiSolidCamera } from "react-icons/bi";
 import { AiOutlineHtml5 } from "react-icons/ai";
+
 
 const PopularCourse = () => {
   const [active, setActive] = useState(0);
