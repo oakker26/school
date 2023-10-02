@@ -22,16 +22,14 @@ const Navbar = () => {
 
   return (
     <header
-      className={`text-slate-700 fixed transition-all top-0 ${
-        scrolling ? "bg-white" : "bg-white/50"
-      }  z-50  fontstyle2  mx-auto flex flex-col w-screen overflow-hidden px-4 py-4 lg:flex-row lg:items-center`}
+      className={`text-slate-700 fixed transition-all top-0 bg-[#C4922E]/80   z-50  fontstyle2  mx-auto flex flex-col w-screen overflow-hidden px-14 py-4 lg:flex-row lg:items-center`}
     >
       <a
         href="#"
         className="flex items-center whitespace-nowrap text-2xl font-black"
       >
         <span className="mr-2 w-32">
-          <img src={logo} className="w-32" alt="" />
+          <img src={logo} className={`  ${scrolling ? "scale-100":"scale-125" } transition-all duration-300  `} alt="" />
         </span>
       </a>
       <input type="checkbox" className="peer hidden" id="navbar-open" />
@@ -61,34 +59,34 @@ const Navbar = () => {
      
         <hr className="mt-4 w-full lg:hidden" />
         <div className="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
-        <ul className="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
+        <ul className="flex w-full text-white flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
           <li className="lg:mr-12">
             <a
-              className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+              className="rounded  transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
               href="#"
             >
-              Components
+             About Us
             </a>
           </li>
           <li className="lg:mr-12">
             <a
-              className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+              className="rounded  transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
               href="#"
             >
-              Pricing
+              Our School
             </a>
           </li>
           <li className="lg:mr-12">
             <a
-              className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+              className="rounded  transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
               href="#"
             >
-              Contact
+              Contact Us
             </a>
           </li>
           <li className="lg:mr-12">
             <a
-              className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+              className="rounded  transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
               href="#"
             >
               FAQ
