@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`text-slate-700 fixed transition-all top-0 bg-[#C4922E]/80   z-50  fontstyle2  mx-auto flex flex-col w-screen overflow-hidden px-14 py-4 lg:flex-row lg:items-center`}
+      className={`text-slate-700 fixed transition-all top-0 bg-purple-400/80   z-50  fontstyle2  mx-auto flex flex-col w-screen overflow-hidden px-14 py-4 lg:flex-row lg:items-center`}
     >
       <a
         href="#"
